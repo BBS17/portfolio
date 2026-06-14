@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+vite-*.cmd.log
+site-*.out.log
+site-*.err.log
+
