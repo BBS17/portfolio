@@ -1,6 +1,5 @@
 # Bricio Blancas Salgado Mission Control Portfolio
 
-Premium recruiter-focused portfolio built with React, Vite, Tailwind CSS, Framer Motion, and React Icons.
 
 ## Run Locally
 
