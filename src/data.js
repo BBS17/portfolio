@@ -35,17 +35,17 @@ export const skills = [
   {
     title: 'Frontend',
     icon: FiCode,
-    items: ['React', 'Java Swing', 'HTML', 'CSS', 'Tailwind CSS'],
+    items: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS'],
   },
   {
     title: 'Backend',
     icon: FiServer,
-    items: ['FastAPI', 'REST APIs', 'OAuth 2.0', 'MVC Architecture'],
+    items: ['Spring Boot', 'FastAPI', 'REST APIs', 'OAuth 2.0', 'SQLite'],
   },
   {
     title: 'Cloud',
     icon: FiCloud,
-    items: ['AWS', 'Docker', 'Linux', 'GitHub'],
+    items: ['AWS', 'Docker', 'Linux', 'GitHub Actions'],
   },
   {
     title: 'Systems',
@@ -82,11 +82,20 @@ export const projects = [
     tech: ['Embedded C', 'STM32 Nucleo', 'PWM', 'Sensors', 'Real-Time Systems'],
   },
   {
-    name: "ShopN'Track",
+    name: 'Cartograph Shopping Tracker',
     status: 'Complete',
     summary:
-      'A Java desktop application that aggregates and compares online product prices, with authentication, profile management, product history, and price visualization.',
-    tech: ['Java', 'Java Swing', 'MVC Architecture', 'Data Management'],
+      'A full-stack product search and price-tracking platform with real multi-retailer results, secure accounts, personal watchlists, live offer refresh, and visual price history.',
+    tech: ['React', 'TypeScript', 'Spring Boot', 'SQLite', 'SerpApi', 'GitHub Actions'],
+    github: 'https://github.com/BBS17/Shopping_Tracker',
+  },
+  {
+    name: 'AI Fact-Checking Platform',
+    status: 'Complete',
+    summary:
+      'A containerized NLP platform that classifies claims and news content through a FastAPI service, trained model pipeline, evaluation metrics, persistent storage, and a browser extension workflow.',
+    tech: ['Python', 'FastAPI', 'NLP', 'Machine Learning', 'Docker', 'Browser Extension'],
+    github: 'https://github.com/BBS17/Cloud_Project',
   },
   {
     name: 'SmartTodo',
@@ -94,6 +103,7 @@ export const projects = [
     summary:
       'An AI-powered academic planning application that estimates assignment completion times and helps students organize workloads.',
     tech: ['AI Planning', 'JavaScript', 'Productivity UX', 'Scheduling Logic'],
+    github: 'https://github.com/BBS17/SmartTodo',
   },
 ];
 
