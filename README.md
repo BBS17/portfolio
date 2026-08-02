@@ -4,6 +4,10 @@ A responsive mission-control-inspired software engineering portfolio built with 
 
 [![CI](https://github.com/BBS17/portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/BBS17/portfolio/actions/workflows/ci.yml)
 
+## Live site
+
+[View the deployed portfolio](https://bricio-mission-control-portfolio.vercel.app)
+
 The site presents technical skills, education, professional background, and selected projects, including:
 
 - Cartograph Shopping Tracker: React, Spring Boot, SQLite, live product search, watchlists, and price history
