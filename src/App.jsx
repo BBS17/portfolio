@@ -240,12 +240,12 @@ function Missions() {
               ))}
             </div>
             <div className="mt-7 flex gap-3">
-              <a className="icon-link" href="https://github.com/bbs17" target="_blank" rel="noreferrer">
+              <a className="icon-link" href={project.github ?? 'https://github.com/BBS17'} target="_blank" rel="noreferrer">
                 <FiGithub /> GitHub
               </a>
-              <a className="icon-link" href="#contact">
-                <FiExternalLink /> Demo
-              </a>
+              {project.demo && <a className="icon-link" href={project.demo} target="_blank" rel="noreferrer">
+                <FiExternalLink /> Live Demo
+              </a>}
             </div>
           </GlassCard>
         ))}
